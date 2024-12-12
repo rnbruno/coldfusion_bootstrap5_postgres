@@ -1,0 +1,276 @@
+Dec 12, 2024 8:28:39 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/opt/coldfusion/cfusion/bin/../lib:/opt/coldfusion/cfusion/bin/../lib/_linux64:/opt/coldfusion/cfusion/bin/../lib::/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+Dec 12, 2024 8:28:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:28:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:28:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Dec 12, 2024 8:28:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.60]
+Dec 12, 2024 8:28:42 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 12, 2024 8:28:47 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,022] milliseconds.
+Dec 12, 2024 8:28:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: Starting application services
+Dec 12, 2024 8:28:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: VM version = 11.0.12+8-LTS-237
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/slf4j-log4j12-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Dec 12, 2024 8:28:57 PM com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector <clinit>
+INFO: The optimized code generation is disabled
+Dec 12, 2024 8:28:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: CFMxmlServlet: Macromedia Flex Build: 87315.134646
+Dec 12, 2024 8:29:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:29:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:29:00 PM com.adobe.coldfusion.launcher.Launcher run
+INFO: Server startup in 20478 ms
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for db, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: {1}
+org.postgresql.Driver
+No suitable driver available for postgres, please check the driver setting in resources file, error: org.postgresql.Driver
+Dec 12, 2024 8:52:00 PM org.apache.catalina.core.StandardServer await
+WARNING: Invalid shutdown command [] received
+Dec 12, 2024 8:52:00 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Dec 12, 2024 8:52:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:52:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:52:00 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [SeedGenerator Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.12/java.lang.Object.wait(Native Method)
+ java.base@11.0.12/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.12/sun.security.provider.SeedGenerator$ThreadedSeedGenerator.run(SeedGenerator.java:332)
+ java.base@11.0.12/java.lang.Thread.run(Thread.java:834)
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@7926529b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@3cf3215e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@334287a1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@169ea946]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@7e7acb39]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@143ad9ed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@505560f7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@78de4ac7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a691180]) and a value of type [org.apache.derby.iapi.services.context.ContextManager] (value [org.apache.derby.iapi.services.context.ContextManager@31880ceb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@1873a592]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@63da2cb3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@6958ca7d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@1b4f23c7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@1e954a09]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@2c1852dc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@33c6e00]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@610f34bb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@699944e4]) and a value of type [org.apache.xerces.jaxp.SAXParserFactoryImpl] (value [org.apache.xerces.jaxp.SAXParserFactoryImpl@55feef91]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4db550e7]) and a value of type [org.apache.xerces.jaxp.SAXParserImpl] (value [org.apache.xerces.jaxp.SAXParserImpl@3b1ec940]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a691180]) and a value of type [org.apache.derby.iapi.services.context.ContextManager] (value [org.apache.derby.iapi.services.context.ContextManager@7ed9d3e9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a691180]) and a value of type [org.apache.derby.iapi.services.context.ContextManager] (value [org.apache.derby.iapi.services.context.ContextManager@4282c99]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a691180]) and a value of type [org.apache.derby.iapi.services.context.ContextManager] (value [org.apache.derby.iapi.services.context.ContextManager@42a7a1d2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a691180]) and a value of type [org.apache.derby.iapi.services.context.ContextManager] (value [org.apache.derby.iapi.services.context.ContextManager@3f4ff4aa]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 12, 2024 8:52:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:52:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:52:10 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/opt/coldfusion/cfusion/bin/../lib:/opt/coldfusion/cfusion/bin/../lib/_linux64:/opt/coldfusion/cfusion/bin/../lib::/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+Dec 12, 2024 8:52:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:52:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:52:11 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Dec 12, 2024 8:52:11 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.60]
+Dec 12, 2024 8:52:12 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 12, 2024 8:52:17 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,021] milliseconds.
+Dec 12, 2024 8:52:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: Starting application services
+Dec 12, 2024 8:52:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: VM version = 11.0.12+8-LTS-237
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/slf4j-log4j12-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Dec 12, 2024 8:52:27 PM com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector <clinit>
+INFO: The optimized code generation is disabled
+Dec 12, 2024 8:52:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: CFMxmlServlet: Macromedia Flex Build: 87315.134646
+Dec 12, 2024 8:52:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:52:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:52:28 PM com.adobe.coldfusion.launcher.Launcher run
+INFO: Server startup in 18329 ms
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Dec 12, 2024 8:55:21 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/opt/coldfusion/cfusion/bin/../lib:/opt/coldfusion/cfusion/bin/../lib/_linux64:/opt/coldfusion/cfusion/bin/../lib::/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+Dec 12, 2024 8:55:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:55:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:55:21 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Dec 12, 2024 8:55:21 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.60]
+Dec 12, 2024 8:55:22 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 12, 2024 8:55:27 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,015] milliseconds.
+Dec 12, 2024 8:55:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: Starting application services
+Dec 12, 2024 8:55:28 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: VM version = 11.0.12+8-LTS-237
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/slf4j-log4j12-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Dec 12, 2024 8:55:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: CFMxmlServlet: Macromedia Flex Build: 87315.134646
+Dec 12, 2024 8:55:36 PM com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector <clinit>
+INFO: The optimized code generation is disabled
+Dec 12, 2024 8:55:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8500"]
+Dec 12, 2024 8:55:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 12, 2024 8:55:37 PM com.adobe.coldfusion.launcher.Launcher run
+INFO: Server startup in 17017 ms
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+SQLException while attempting to connect: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.

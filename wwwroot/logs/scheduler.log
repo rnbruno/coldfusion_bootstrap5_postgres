@@ -1,0 +1,5 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"Information","main","12/12/24","20:28:56","","/opt/coldfusion/cfusion/logs/scheduler.log initialized"
+"Information","main","12/12/24","20:28:56","","Created scheduler DefaultQuartzScheduler with thread pool size as 10"
+"Information","main","12/12/24","20:52:21","","Created scheduler DefaultQuartzScheduler with thread pool size as 10"
+"Information","main","12/12/24","20:55:29","","Created scheduler DefaultQuartzScheduler with thread pool size as 10"

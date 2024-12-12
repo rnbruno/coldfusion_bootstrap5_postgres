@@ -1,0 +1,37 @@
+version: '3.9'
+
+services:
+
+    ports:
+    - "8500:8500"
+    environment:
+        - acceptEULA=YES
+        - password=123
+    volumes:
+      - ./wwwroot:/app # Pasta onde os arquivos do ColdFusion serão servidos
+      - ./wwwroot/logs/:/opt/coldfusion/cfusion/logs/
+    depends_on:
+      - db
+    networks: 
+      - web
+      
+  db:
+    image: postgres:15.3 # Use a versão desejada do PostgreSQL
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root_password_here  # Defina a senha do usuário "postgres"
+      POSTGRES_DB: coldfusion_db             # Nome do banco de dados
+      POSTGRES_USER: cf_user                 # Nome do usuário personalizado
+    ports:
+      - "5432:5432" # Porta padrão do PostgreSQL
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks: 
+      - web
+
+volumes:
+  postgres_data: # Declare o volume para o PostgreSQL
+
+networks:
+  web: 
