@@ -36,6 +36,9 @@ component displayname="Product service" accessors="true" {
     
     public numeric function save ( numeric id = 0, string name = '', string description='',
           string price = '', string quantity = '' ) {
+
+        //     writeDump(var="rc", label="Request Context", abort=true);
+
         var productExists = getproduct( id ).recordcount;
         if ( arguments.id > 0 && productExists ) {
             queryExecute(
@@ -52,9 +55,9 @@ component displayname="Product service" accessors="true" {
                     description = { value = arguments.description, 
                         null = hs.isEmptyString( arguments.description ), cfsqltype = 'varchar' },
                     price = { value = arguments.price, 
-                        null = hs.isEmptyString( arguments.price ), cfsqltype = 'varchar' },
+                        null = hs.isEmptyString( arguments.price ), cfsqltype = 'integer' },
                     quantity = { value = arguments.quantity, 
-                        null = hs.isEmptyString( arguments.quantity ), cfsqltype = 'varchar' }
+                        null = hs.isEmptyString( arguments.quantity ), cfsqltype = 'integer' }
                 }
             );
             return arguments.id;
@@ -71,9 +74,9 @@ component displayname="Product service" accessors="true" {
                     description = { value = arguments.description, 
                         null = hs.isEmptyString( arguments.description ), cfsqltype = 'varchar' },
                     price = { value = arguments.price, 
-                        null = hs.isEmptyString( arguments.price ), cfsqltype = 'varchar' },
+                        null = hs.isEmptyString( arguments.price ), cfsqltype = 'numeric' },
                     quantity = { value = arguments.quantity, 
-                        null = hs.isEmptyString( arguments.quantity ), cfsqltype = 'varchar' }
+                        null = hs.isEmptyString( arguments.quantity ), cfsqltype = 'integer' }
                 },
                 { result = 'result'}
             );

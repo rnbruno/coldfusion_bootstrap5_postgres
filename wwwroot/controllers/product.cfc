@@ -30,15 +30,33 @@ component displayname="product controller"  accessors="true" {
     
     public void function add ( rc ) {
         rc.productId = 0;
-        rc.productName = '';
-        rc.productDescription = '';
-        rc.productPrice = '';
-        rc.productQuantity = '';
         rc.subtitle = 'Add product';
-        variables.fw.setView( 'product.edit' );
+        var productName = rc.productName;
+        var productDescription =  rc.productDescription;
+        var productPrice =  rc.productPrice;
+        var productPrice =  rc.productQuantity;
+
+         writeDump(var=rc, label="Request Context", abort=true);
+
+        // Valida se o campo foi preenchido
+        if (len(productName)) {
+            // Chama a camada de serviço para salvar o produto
+            var productService = application.serviceFactory.getService("product");
+            productService.saveProduct( productName );
+
+            // Define mensagem de sucesso
+            rc.message = "Product successfully added!";
+        } else {
+            rc.message = "Product name is required.";
+        }
+
+        // Redireciona ou exibe a resposta
+        redirect( url=BuildURL(action="product.list") );
+
     }
     
     public void function edit ( rc ) {
+        
         if ( StructKeyExists( rc, 'productId' ) && rc.productId > 0 ) {
             var product = productService.getproduct( rc.productId );
             rc.productName = product.name;
@@ -50,10 +68,13 @@ component displayname="product controller"  accessors="true" {
     }
     
     public void function save ( rc ) {
-        rc.productId = productservice.save( rc.productId, rc.productName,
-            rc.productDescription, rc.productPrice, rc.productQuantity);
+
+        rc.productId = 0;
+        rc.productId = productService.save( rc.productId, rc.name,
+            rc.description, rc.price, rc.quantity);
+            
         rc.subtitle = 'Edit product';
-        variables.fw.redirect( action='product.edit', append='productId');
+        variables.fw.redirect( action='product.list', append='productId');
     }
     
     public void function delete ( rc ) {
