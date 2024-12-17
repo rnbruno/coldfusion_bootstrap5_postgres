@@ -1,0 +1,3 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"Information","http-nio-8500-exec-10","12/12/24","21:55:18","","/opt/coldfusion/cfusion/logs/update.log initialized"
+"Error","http-nio-8500-exec-10","12/12/24","21:55:18","CFADMIN","Not able to connect to Update Site: Connection Failure: Status code unavailable"

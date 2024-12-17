@@ -11,7 +11,7 @@
         <cfset userData = userModel.getUserById(arguments.userId)>
 
         <!--- Passa os dados do usuário para a visualização --->
-        <cfinclude template="/views/userProfile.cfm">
+        <cfinclude template="view/userProfile.cfm">
     </cffunction>
 
 </cfcomponent>

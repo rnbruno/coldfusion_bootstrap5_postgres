@@ -1,0 +1,7 @@
+
+    <cfset currentPath = getCurrentTemplatePath()>
+    <cfoutput>
+        Caminho atual: #currentPath#
+    </cfoutput>
+
+    /app/controllers/MenuController.cfm
