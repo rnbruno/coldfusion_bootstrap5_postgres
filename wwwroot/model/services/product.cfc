@@ -15,6 +15,7 @@ component displayname="Product service" accessors="true" {
                     created_at, 
                     updated_at 
             FROM product
+            WHERE deleted = 0 OR deleted IS NULL 
             ORDER BY name"
         ); 
     }
@@ -92,7 +93,7 @@ component displayname="Product service" accessors="true" {
     
     public void function delete ( required numeric id ) {
         queryExecute( 
-            "DELETE FROM product WHERE id = :id",
+            "UPDATE product set deleted = 1 WHERE id = :id",
             { id={ value=arguments.id, cfsqltype='integer' } }
         );
     }

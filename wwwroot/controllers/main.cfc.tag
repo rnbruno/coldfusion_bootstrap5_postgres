@@ -9,4 +9,4 @@
     <cffunction name="default" access="public" returntype="void">
         <cfargument name="rc" >
     </cffunction> 
-</cfcomponent>
+    </cfcomponent>

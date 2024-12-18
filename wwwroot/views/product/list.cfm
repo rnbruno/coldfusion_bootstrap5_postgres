@@ -97,7 +97,7 @@
                                 <td>#rc.products.price#</td>
                                 <td>#rc.products.quantity#</td>
                                 <td>#rc.products.created_at#</td>
-                                <td> <button type="button" class="btn btn-sm btn-danger">Delete Product</button></td>
+                                <td> <button type="button" onclick="productDelete(#rc.products.id#)" class="btn btn-sm btn-danger">Delete Product</button></td>
                             </tr>
                         </cfloop>
                         
@@ -110,6 +110,25 @@
         <script src="../resource/public/assets/css/js/datatable/datatable.js"></script>
         <script>
             $('##products').DataTable();
+
+            function productDelete(id){
+           
+                console.log(id);
+
+                // Construir a URL dinamicamente com o `id` fornecido
+                var deleteUrl = "#BuildURL(action='product.delete')#&productId=" + id;
+                $.get({
+                    url: deleteUrl,
+                    method: "POST", 
+                    success: function (response) {
+                        alert("Product deleted successfully!");
+                        console.log(response);
+                    },
+                    error: function (xhr, status, error) {
+                        alert("An error occurred: " + error);
+                    },
+                });
+            };
         </script>
     </div>
     <div id="home" class="page-header">

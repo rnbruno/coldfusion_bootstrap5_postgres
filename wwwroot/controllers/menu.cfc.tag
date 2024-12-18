@@ -1,19 +1,13 @@
 <cfcomponent accessors="true">
-
-    property menuService; // Dependency Injection in action!
-
-    public any function init ( fw ) {
-        variables.fw = fw;
-        return this;
-    }
+  
+    <cffunction name="init" access="public" returntype="any">
+        <cfargument name="fw" >
+        <cfset variables.fw = arguments.fw>
+        <cfreturn this>
+    </cffunction>
     
-    public void function default ( rc ) {
-        variables.fw.redirect( action='menu.list', append='none');
-    }
+    <cffunction name="default" access="public" returntype="void">
+        <cfargument name="rc" >
+    </cffunction> 
     
-    public void function list ( rc ) {
-        rc.menus = menuService.getAllMenu();
-        rc.subtitle = "Menu List";
-    }
-    
-}
+</cfcomponent>

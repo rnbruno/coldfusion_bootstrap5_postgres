@@ -29471,3 +29471,36 @@ Dec 17, 2024 1:45:17 PM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
 Dec 17, 2024 1:45:17 PM com.adobe.coldfusion.launcher.Launcher run
 INFO: Server startup in 19178 ms
+Dec 18, 2024 12:35:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/opt/coldfusion/cfusion/bin/../lib:/opt/coldfusion/cfusion/bin/../lib/_linux64:/opt/coldfusion/cfusion/bin/../lib::/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+Dec 18, 2024 12:35:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8500"]
+Dec 18, 2024 12:35:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 18, 2024 12:35:17 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Dec 18, 2024 12:35:17 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.60]
+Dec 18, 2024 12:35:18 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 18, 2024 12:35:23 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,013] milliseconds.
+Dec 18, 2024 12:35:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: Starting application services
+Dec 18, 2024 12:35:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: ColdFusionStartUpServlet: ColdFusion: VM version = 11.0.12+8-LTS-237
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/coldfusion/cfusion/bin/../lib/slf4j-log4j12-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Dec 18, 2024 12:35:32 PM com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector <clinit>
+INFO: The optimized code generation is disabled
+Dec 18, 2024 12:35:33 PM org.apache.catalina.core.ApplicationContext log
+INFO: CFMxmlServlet: Macromedia Flex Build: 87315.134646
+Dec 18, 2024 12:35:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8500"]
+Dec 18, 2024 12:35:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-127.0.0.1-8018"]
+Dec 18, 2024 12:35:34 PM com.adobe.coldfusion.launcher.Launcher run
+INFO: Server startup in 18394 ms

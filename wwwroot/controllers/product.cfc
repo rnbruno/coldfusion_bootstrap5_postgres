@@ -36,8 +36,6 @@ component displayname="product controller"  accessors="true" {
         var productPrice =  rc.productPrice;
         var productPrice =  rc.productQuantity;
 
-         writeDump(var=rc, label="Request Context", abort=true);
-
         // Valida se o campo foi preenchido
         if (len(productName)) {
             // Chama a camada de serviço para salvar o produto
@@ -78,6 +76,7 @@ component displayname="product controller"  accessors="true" {
     }
     
     public void function delete ( rc ) {
+
         if ( StructKeyExists( rc, 'productId' ) && rc.productId > 0 ) {
             productService.delete( rc.productId );
         }
