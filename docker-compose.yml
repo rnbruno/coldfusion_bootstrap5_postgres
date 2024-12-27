@@ -1,7 +1,8 @@
 version: '3.9'
 
 services:
-
+  coldfusion:
+    image: adobecoldfusion/coldfusion2018:latest 
     ports:
     - "8500:8500"
     environment:
@@ -11,10 +12,7 @@ services:
       - ./wwwroot:/app # Pasta onde os arquivos do ColdFusion serão servidos
       - ./wwwroot/logs/:/opt/coldfusion/cfusion/logs/
     depends_on:
-      - db
-    networks: 
-      - web
-      
+      - db     
   db:
     image: postgres:15.3 # Use a versão desejada do PostgreSQL
     container_name: postgres
